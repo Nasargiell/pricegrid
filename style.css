@@ -12,7 +12,10 @@ body {
 }
 
 .pai {
-  margin: 20%;
+  margin-right: 20%;
+  margin-bottom: 20%;
+  margin-top: 5%;
+  margin-left: 20%;
   flex-flow: row wrap;
   border-radius: 6px;
   /* border: 1px solid red; */
