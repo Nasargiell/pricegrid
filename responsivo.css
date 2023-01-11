@@ -1,0 +1,23 @@
+@media screen and (max-width: 375px) {
+  .pai {
+    display: block;
+    margin: 0;
+    border: none;
+  }
+
+  header {
+    padding: 20;
+  }
+  .cima {
+    padding: 20;
+  }
+
+  .baixo1 {
+    flex: 100%;
+    padding: 30px;
+  }
+
+  .btn1 {
+    margin-bottom: 40px;
+  }
+}

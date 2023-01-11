@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #e6eff6;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+.pai {
+  margin: 10%;
+  flex-flow: row wrap;
+  border-radius: 16px;
+  /* border: 1px solid red; */
+  box-shadow: 0px 12px 12px rgb(194, 194, 194);
+  overflow: hidden;
+}
+
+.cima {
+  flex-flow: row wrap;
+  flex: 100%;
+  padding: 40px;
+  background: white;
+  align-items: center;
+  text-align: left;
+}
+.cima h1 {
+  color: #2bb3b1;
+  font-size: 32px;
+}
+.cima h2 {
+  color: #bfdf32;
+  font-size: 28px;
+}
+
+.cima p {
+  color: #d8dbe2;
+  font-size: 22px;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.baixo1 {
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  flex: 50%;
+  background: #2bb3b1;
+}
+
+.baixo1 h2 {
+  color: white;
+}
+.baixo1 p {
+  font-size: 20px;
+  color: #5fd4d3;
+}
+.baixo1 span {
+  color: white;
+  font-size: 52px;
+}
+
+.btn1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.btn {
+  font-weight: 700;
+  background: #bfdf32;
+  padding: 20px 30%;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 4px 4px 6px #269a8e;
+}
+
+.btn:hover {
+  background: #d8dbe2;
+  color: black;
+}
+
+.baixo2 {
+  padding: 40px;
+  flex: 50%;
+  background: #4abebd;
+}
+.baixo2 h2 {
+  color: white;
+  font: 28px;
+}
+
+.baixo2 p {
+  font-size: 18px;
+  color: #86e5e4;
+}
+footer {
+  text-align: center;
+}
