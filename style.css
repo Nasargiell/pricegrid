@@ -14,7 +14,7 @@ body {
 .pai {
   margin: 10%;
   flex-flow: row wrap;
-  border-radius: 16px;
+  border-radius: 6px;
   /* border: 1px solid red; */
   box-shadow: 0px 12px 12px rgb(194, 194, 194);
   overflow: hidden;
@@ -29,17 +29,15 @@ body {
   text-align: left;
 }
 .cima h1 {
-  color: #2bb3b1;
-  font-size: 32px;
+  color: hsl(179, 62%, 43%);
 }
 .cima h2 {
-  color: #bfdf32;
-  font-size: 28px;
+  color: hsl(71, 73%, 54%);
 }
 
 .cima p {
-  color: #d8dbe2;
-  font-size: 22px;
+  line-height: 1.4;
+  color: hsl(218, 22%, 67%);
 }
 
 section {
@@ -48,34 +46,36 @@ section {
 }
 
 .baixo1 {
-  font-family: "Poppins", sans-serif;
+  height: 350px;
   padding: 40px;
   flex: 50%;
-  background: #2bb3b1;
+  background: hsl(179, 62%, 43%);
 }
 
-.baixo1 h2 {
+.baixo1 h3 {
+  letter-spacing: 2px;
   color: white;
 }
 .baixo1 p {
-  font-size: 20px;
   color: #5fd4d3;
 }
 .baixo1 span {
   color: white;
-  font-size: 52px;
+  font-weight: 700;
+  font-size: 42px;
 }
 
 .btn1 {
   text-align: center;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .btn {
+  white-space: nowrap;
   font-weight: 700;
-  background: #bfdf32;
-  padding: 20px 30%;
+  background: hsl(71, 73%, 54%);
+  padding: 15px 35%;
   border-radius: 8px;
   text-decoration: none;
   color: white;
@@ -83,23 +83,22 @@ section {
 }
 
 .btn:hover {
-  background: #d8dbe2;
-  color: black;
+  background: hsl(218, 22%, 67%);
 }
 
 .baixo2 {
   padding: 40px;
   flex: 50%;
   background: #4abebd;
+  height: 350px;
 }
-.baixo2 h2 {
+.baixo2 h3 {
   color: white;
-  font: 28px;
 }
 
 .baixo2 p {
-  font-size: 18px;
-  color: #86e5e4;
+  line-height: 0.72;
+  color: hsl(204, 43%, 93%);
 }
 footer {
   text-align: center;
